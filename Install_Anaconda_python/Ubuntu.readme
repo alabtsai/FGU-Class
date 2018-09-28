@@ -1,0 +1,18 @@
+
+step1 : install pip
+$ sudo apt install python3-pip  
+
+check version: 
+$ pip3 --version
+
+
+step2 : install virtualenv 
+$ pip3 install --user --upgrade virtualenv 
+
+step3 : 
+$ cd $ML_PATH
+$ virtualenv env 
+$ source env/bin/activate
+$ pip3 install --upgrade jupyter matplotlib numpy 
+
+

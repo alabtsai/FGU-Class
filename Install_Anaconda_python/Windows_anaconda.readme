@@ -4,7 +4,7 @@
 > conda info --envs
 
 
-2. create a environment : 
+2. create a virtual environment : 
 > conda create -n mic_1   python=3.6
 
 3. 
@@ -13,7 +13,7 @@
 4.
 at the virtualenv mic_1  : 
 <mic_1>python -m pip install --upgrade pip 
-# upgrade pip
+# first upgrade pip
 # pip : Python's package manager
 
 <mic_1> pip install --help
@@ -22,8 +22,11 @@ at the virtualenv mic_1  :
 
 <mic_1> python -m pip install pyaudio
 
-<mic_1> pip install tensorflow==1.5 ? 
-# how to choose version ?
+<mic_1> pip install SpeechRecognition
+
+<mic_1> pip install tensorflow 
+
+<mic_1> cd your project directory
 
 <mic_1> jupyter notebook 
 

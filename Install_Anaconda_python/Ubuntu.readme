@@ -8,6 +8,7 @@ $ pip3 --version
 
 step2 : install virtualenv 
 $ pip3 install --user --upgrade virtualenv 
+#  --user : Install to the Python user install directory for your platform. Typically ~/.local/
 
 step3 : 
 $ cd $ML_PATH

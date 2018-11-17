@@ -16,4 +16,10 @@ $ virtualenv env
 $ source env/bin/activate
 $ pip3 install --upgrade jupyter matplotlib numpy 
 
-
+(side note: 
+a.  # set up symlinks for gcc/g++
+#   -s : make symbolic links instead of hard links 
+#   target    :  /usr/bin/gcc-6 
+#   link name :  /usr/local/cuda/bin/gcc 
+sudo ln -s /usr/bin/gcc-6 /usr/local/cuda/bin/gcc
+sudo ln -s /usr/bin/g++-6 /usr/local/cuda/bin/g++  

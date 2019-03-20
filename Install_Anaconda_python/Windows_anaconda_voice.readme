@@ -1,0 +1,38 @@
+
+
+1.    check environments: 
+> conda info --envs
+
+
+2. create a virtual environment : 
+> conda create -n mic_1   python=3.6
+
+3. 
+> activate   mic_1
+
+4.
+at the virtualenv mic_1  : 
+<mic_1>python -m pip install --upgrade pip 
+# first upgrade pip
+# pip : Python's package manager
+
+<mic_1> pip install --help
+
+<mic_1> pip install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn
+
+<mic_1> python -m pip install pyaudio
+
+<mic_1> pip install SpeechRecognition
+
+<mic_1> pip install tensorflow 
+
+<mic_1> cd your project directory
+
+<mic_1> python voice_control_1.py        <-----------   
+Say something!
+
+
+
+
+
+
